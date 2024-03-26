@@ -1,2 +1,0 @@
-// Popular Movie Api :-
-

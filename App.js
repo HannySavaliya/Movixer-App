@@ -18,7 +18,6 @@ const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
 const screenOptions = {
     tabBarActiveTintColor: '#E3651D',
-    // tabBarShowLabel: false,
     tabBarHideOnKeyboard: true,
     tabBarStyle: {
         backgroundColor: 'black',
@@ -78,54 +77,3 @@ export default function App () {
     )
 }
 
-// import React from "react";
-// import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-// import { NavigationContainer } from "@react-navigation/native";
-// import Home from "./Home";
-// import Search from "./Search";
-// import Ticket from "./Ticket";
-// import Profile from "./Profile";
-// import { AntDesign, MaterialCommunityIcons, Octicons } from '@expo/vector-icons';
-
-// const Tab = createBottomTabNavigator();
-
-// const App = () => {
-//   return(
-//     <NavigationContainer>
-//         <Tab.Navigator screenOptions={{
-//           tabBarActiveTintColor: 'darkorange',
-//           tabBarInactiveTintColor: 'black',
-//           tabBarShowLabel: false,
-//         }}>
-//           <Tab.Screen name="Home" component={Home} options={{
-//             headerShown: false,
-//             tabBarIcon: ({size, color}) => (
-//               <AntDesign name="home" size={size} color={color} />
-//             )
-//           }}/>
-//           <Tab.Screen name="Search" component={Search} options={{
-//             headerShown: false,
-//             tabBarIcon: ({size, color}) => (
-//               <AntDesign name="search1" size={size} color={color} />
-//             )
-//           }}/>
-//           <Tab.Screen name="Ticket" component={Ticket} options={{
-//             headerShown: false,
-//             tabBarIcon: ({size, color}) => (
-//               <MaterialCommunityIcons name="ticket-confirmation-outline" size={size} color={color} />
-//             )
-//           }}/>
-//           <Tab.Screen name="Profile" component={Profile} options={{
-//             headerShown: false,
-//             tabBarIcon: ({size, color}) => (
-//               <Octicons name="person" size={size} color={color} />
-//             )
-//           }}/>
-//         </Tab.Navigator>
-        
-//       </NavigationContainer>
-      
-//   )
-// }
-
-// export default App
