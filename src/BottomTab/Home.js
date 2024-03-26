@@ -115,8 +115,6 @@ const Home = ({ navigation }) => {
 
         </View>
        
-
-       
     );
 };
 
